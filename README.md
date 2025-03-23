@@ -2,7 +2,7 @@
 
 # asdf-git-worktree-wrapper [![Build](https://github.com/kedwards/asdf-git-worktree-wrapper/actions/workflows/build.yml/badge.svg)](https://github.com/kedwards/asdf-git-worktree-wrapper/actions/workflows/build.yml) [![Lint](https://github.com/kedwards/asdf-git-worktree-wrapper/actions/workflows/lint.yml/badge.svg)](https://github.com/kedwards/asdf-git-worktree-wrapper/actions/workflows/lint.yml)
 
-[git-worktree-wrapper](https://github.com/kedwards/git-worktree-wrapper) plugin for the [asdf version manager](https://asdf-vm.com)
+[git-worktree-wrapper](https://github.com/kedwards/git-worktree-wrapper) plugin for the [asdf version manager](https://asdf-vm.com) an/or [mise](https://mise.jdx.dev).
 
 </div>
 
@@ -15,10 +15,7 @@
 
 # Dependencies
 
-**TODO: adapt this section**
-
 - `bash`, `curl`, `tar`, and [POSIX utilities](https://pubs.opengroup.org/onlinepubs/9699919799/idx/utilities.html).
-- `SOME_ENV_VAR`: set this environment variable in your shell config to load the correct version of tool x.
 
 # Install
 
@@ -28,6 +25,10 @@ Plugin:
 asdf plugin add git-worktree-wrapper
 # or
 asdf plugin add git-worktree-wrapper https://github.com/kedwards/asdf-git-worktree-wrapper.git
+```
+
+```shell
+mise use git-worktree-wrapper
 ```
 
 git-worktree-wrapper:
@@ -46,8 +47,7 @@ asdf global git-worktree-wrapper latest
 git-worktree-wrapper --help
 ```
 
-Check [asdf](https://github.com/asdf-vm/asdf) readme for more instructions on how to
-install & manage versions.
+Check [asdf](https://github.com/asdf-vm/asdf) or [mise](https://mise.jdx.dev/walkthrough.html#installing-dev-tools) readme for more instructions on how to install & manage versions.
 
 # Contributing
 
@@ -57,4 +57,4 @@ Contributions of any kind welcome! See the [contributing guide](contributing.md)
 
 # License
 
-See [LICENSE](LICENSE) © [Kevin Edwards](https://github.com/kedwards/)
+See [LICENSE](LICENSE) ©
