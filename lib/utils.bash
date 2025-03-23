@@ -3,7 +3,7 @@
 set -euo pipefail
 
 # TODO: Ensure this is the correct GitHub homepage where releases can be downloaded for git-worktree-wrapper.
-GH_REPO="https://github.com/lu0/git-worktree-wrapper"
+GH_REPO="https://github.com/kevinedwards/git-worktree-wrapper"
 TOOL_NAME="git-worktree-wrapper"
 # TOOL_TEST="git --version"
 
