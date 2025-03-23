@@ -2,7 +2,7 @@
 
 # asdf-git-worktree-wrapper [![Build](https://github.com/kedwards/asdf-git-worktree-wrapper/actions/workflows/build.yml/badge.svg)](https://github.com/kedwards/asdf-git-worktree-wrapper/actions/workflows/build.yml) [![Lint](https://github.com/kedwards/asdf-git-worktree-wrapper/actions/workflows/lint.yml/badge.svg)](https://github.com/kedwards/asdf-git-worktree-wrapper/actions/workflows/lint.yml)
 
-[git-worktree-wrapper](https://github.com/kedwards/git-worktree-wrapper) plugin for the [asdf version manager](https://asdf-vm.com).
+[git-worktree-wrapper](https://github.com/kedwards/git-worktree-wrapper) plugin for the [asdf version manager](https://asdf-vm.com)
 
 </div>
 
