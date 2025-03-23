@@ -28,7 +28,8 @@ asdf plugin add git-worktree-wrapper https://github.com/kedwards/asdf-git-worktr
 ```
 
 ```shell
-mise use git-worktree-wrapper
+mise plugin addt-worktreewrapper https://github.com/kedwards/asdf-git-worktree-wrapper.git 
+mise use --global git-worktree-wrapper
 ```
 
 git-worktree-wrapper:
